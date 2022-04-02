@@ -1,0 +1,27 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: black;
+	color: #d0d0d0;
+	font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+	color: orange;
+	text-decoration: underline;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+hr {
+	border: 2px solid whitesmoke;
+	width: 60%;
+	background-color: whitesmoke;
+	border-radius: 2px;
+}
