@@ -1,0 +1,12 @@
+.largeImg {
+    width: 50rem !important;
+    cursor: pointer;
+}
+
+.FullScreenImg {
+    cursor: pointer;
+    width: 100vw !important;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

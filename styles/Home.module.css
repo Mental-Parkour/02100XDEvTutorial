@@ -56,3 +56,15 @@
 .tutorial h3 {
 	margin: 0;
 }
+
+.tutorial img {
+	width: 5rem;
+}
+
+.tutorial div {
+	display: flex;
+	vertical-align: middle;
+	flex-flow: wrap;
+	align-items: center;
+	gap: 2rem;
+}

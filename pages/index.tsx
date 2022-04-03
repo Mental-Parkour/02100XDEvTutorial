@@ -1,13 +1,21 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Two from '../components/steps/2';
-import One from '../components/steps/1';
 import styles from '../styles/Home.module.css'
-import Three from '../components/steps/3';
-import Four from '../components/steps/4';
+
+import Programs from '../components/steps/Programs';
+import FireShip from '../components/steps/FireShip';
+import HTMLTime from '../components/steps/HTMLTime';
+import CssTime from '../components/steps/CssTime';
+import Content from '../components/steps/content';
+import CSSUnits from '../components/steps/CSSUnits';
+import FlexBox from '../components/steps/FlexBox';
+import BestFriends from '../components/steps/BestFriends';
+import CodeAlongCss from '../components/steps/CodeAlongCss';
+import SomeTimeAloneCSS from '../components/steps/CSSomeTimeAlone';
+import HTMLAlone from '../components/steps/HTMLAlone';
 
 const Home: NextPage = () => {
-	const allSteps = [<One key={1}/>, <Two key={2}/>, <Three key={3}/>, <Four key={4}/>];
+	const allSteps = [<Content key={'content'}/>, <FireShip key={'FireShip'}/>, <Programs key={'Programs'}/>, <HTMLTime key={'HTMLTime'}/>, <HTMLAlone key={'HTMLAlone'}/>,<CssTime key={'CssTime'}/>, <CSSUnits key={'CSSUnits'}/>, <FlexBox key={'FlexBox'}/>, <BestFriends key={'BestFriends'}/>, <CodeAlongCss key={'CodeAlongCss'}/>, <SomeTimeAloneCSS key={'SomeTimeAlone'}/>];
 
 	return (
 		<div className={styles.container}>

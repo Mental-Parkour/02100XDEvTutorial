@@ -1,0 +1,56 @@
+body {
+	background-color: #3d537f;
+	color: whitesmoke;
+	margin: 0;
+	text-align: center;
+}
+
+
+h1 {
+	width: 26rem;
+	margin: auto;
+	font-size: 3rem;
+	border-bottom: 2px solid orange;
+}
+
+hr {
+	border: 2px solid white;
+	border-radius: 2px;
+	width: 60%;
+}
+.card {
+	border: 2px solid wheat;
+	width: 30rem;
+	margin: 2rem auto;
+	border-radius: 20px;
+	padding: 2rem 3rem;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.card:hover {
+	width: 35rem;
+}
+
+.card:hover #name {
+	font-size: 4rem;
+	margin: 0;
+}
+
+#name {
+	transition: 0.5s;
+	color: whitesmoke;
+}
+
+.card img {
+	width: 100%;
+	border-radius: 20px;
+}
+
+.card p {
+	font-size: 2rem;
+	color: gray;
+	text-align: center;
+	margin: 0;
+
+}
